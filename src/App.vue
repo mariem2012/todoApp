@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-     <h1>Vue 3 Todo App</h1>
+     <h1>Vue Todo App</h1>
    <form @submit.prevent="addNewTodo">
      <label>New Todo</label>
      <input v-model="newTodo" name="newTodo">
@@ -15,6 +15,7 @@
       </li>
    </ul>
   </div>
+  
 </template>
 
 <script>
@@ -72,7 +73,7 @@ body {
   margin: 0 auto;
   width: 80%;
   margin: 0 auto;
-  background-color: darkcyan;
+
 }
 form {
   display: flex;
@@ -92,6 +93,7 @@ input, textarea, button, p, div, section, article, select {
     justify-content: center;
     flex-direction: column;
     margin-top: 100px;
+    background-color: cadetblue;
 }
 .container button {
   width: 300px;
